@@ -1,11 +1,11 @@
 StationName = Pelly
 StationID = 3448
 StartYear = 1986
-EndYear = 2015
+EndYear = 1987
 outputdirectory = ./test_data/
 
 StationName = Pelly2
 StationID = 3449
 StartYear = 1986
-EndYear = 2015
+EndYear = 1987
 outputdirectory = ./test_data/
