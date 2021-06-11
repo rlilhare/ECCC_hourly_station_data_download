@@ -4,16 +4,11 @@ to make virtual environments:
     to create virtual environment: pipenv --python 3.8
     to activate pipenv environment: pipenv shell
 
-    to install requirements: make install_requirements
+to install requirements: make install_requirements
 
-to make docker file:
-
-to build docker file:
-
-before using this script, please read:
-This script automates the downloading process of hourly meteorological data from Environment and Climate Change Canada
-
-This script requires a 'input.txt' file that contains your needed stations and can be found in this repo.
+Before using this script, please read these instructions carefully:
+This script automates the downloading process of hourly meteorological data from the Environment and Climate Change Canada database.
+This script requires a 'input.txt' file that contains your required stations and can be found in this repo (ECCC_meterological_stations_inventory_Canada.csv).
 
 Note that the station id used in the input.txt file is NOT the one you see on climate id which is what is shown on the website
 The station id is hidden, but can be found in the url when viewing climate data for a site, this is the id number you must use.
